@@ -1,0 +1,41 @@
+.container{
+  display:flex;
+  width:600px;
+  background-color:rgba(164, 255, 142, 0.123);
+  padding:10px;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(0, 65, 5);
+  border-radius:5px;
+}
+
+
+.title{
+  display:flex;
+  align-items: center;
+  gap : 6px;
+  width : 120px;
+}
+.image{
+  width : 32px;
+}
+
+.symbol{
+  font-weight: bold;
+}
+
+.green{
+  color : green;
+}
+.red{
+  color :red;
+}
+
+@media screen and (max-width:650px){
+  .container{
+    flex-direction: column;
+    gap : 12px;
+    max-width :200px;
+
+  }
+}

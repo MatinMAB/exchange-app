@@ -1,0 +1,21 @@
+.container{
+  margin: 0 auto;
+  display:flex;
+  margin-bottom : 12px;
+  width:600px;
+  background-color:rgba(121, 255, 88, 0.445);
+  padding:10px;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(0, 65, 5);
+  border-radius:5px;
+  font-weight: bold;
+}
+
+@media screen and (max-width:650px){
+  .container{
+    flex-direction: column;
+    gap : 12px;
+    max-width :200px;
+  }
+}
